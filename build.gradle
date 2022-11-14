@@ -1,0 +1,50 @@
+plugins {
+    id 'org.jetbrains.intellij' version '1.7.0'
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+    //https://mvnrepository.com/artifact/com.intellij/forms_rt
+    implementation group: 'com.intellij', name: 'forms_rt', version: '7.0.3'
+    implementation "com.github.javaparser:javaparser-core:3.24.2"
+    implementation "guru.nidi:graphviz-java:0.18.1"
+    implementation 'org.apache.logging.log4j:log4j-core:2.17.2'
+    implementation 'org.apache.logging.log4j:log4j-slf4j-impl:2.17.2'
+    implementation "org.apache.commons:commons-text:1.9"
+    implementation 'com.github.zwangMcGill:ResesarchToolAnnotation:0.6'
+    implementation 'com.github.vbauer:jconditions:1.2.3'
+}
+
+// See https://github.com/JetBrains/gradle-intellij-plugin/
+intellij {
+    version = '2021.3.3'
+    plugins = ['java', 'gradle']
+//    intellij.updateSinceUntilBuild false
+}
+
+patchPluginXml {
+    changeNotes = """
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>"""
+}
+
+test {
+    useJUnitPlatform()
+}
+
+buildPlugin {
+    buildSearchableOptions.enabled = false
+}

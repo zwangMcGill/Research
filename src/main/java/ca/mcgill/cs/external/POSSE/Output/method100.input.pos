@@ -1,0 +1,36 @@
+void resolveJumpJetAttack(QPhysicalResult;I) | resolve:verb,jump:noun,jet:noun,attack:noun
+Searcher getSearchByName(QString;) | get:verb,search:noun,by:closedlist,name:noun
+void writePluginProperties(QFile;[QString;) | write:verb,plugin:noun,properties:noun
+CONS HPanel() | h:noun  panel:noun 
+CONS BinC45Split(IID) | bin:noun c:noun 45:noun  split:noun 
+int[] getExteriorLocs(Z) | get:verb,exterior:adjective,locs:noun
+void error(QJajukException;) | error:noun
+boolean isCreatingSO() | is:verb,creating:noun,so:noun
+void refreshBookmarkHighlightPainter() | refresh:verb,bookmark:noun,highlight:noun,painter:noun
+DateFrameable calculateHighestFrameableUnit(QTimeUnit;QTimeUnit;) | calculate:verb,highest:adjective,frameable:adjective,unit:noun
+void setUpdateNeeded(QUpdateWindow;) | set:verb,update:noun,needed:verb
+CONS ToggleToolBarAction(QJToolBar;QString;) | toggle:noun tool:noun bar:noun  action:noun 
+int[] getSampleIntArray(Qorg.hsqldb.lib.DoubleIntIndex;I) | get:verb,sample:noun,int:noun,array:noun
+void updatePrefs() | update:verb,prefs:noun
+String getSQLSnapshotSelectString() | get:verb,sql:noun,snapshot:noun,select:adjective,string:noun
+WeaponType createISRAC10() | create:verb,is:noun,rac:noun,10:noun
+int copyNext(int index, ShortIterator source, int remaining) | copy:verb,next:noun
+int getTrackNumber() | get:verb,track:noun,number:noun
+MedicalCategory getMedicalCategory() | get:verb,medical:adjective,category:noun
+long getNextScrapeCheckOn() | get:verb,next:noun,scrape:noun,check:noun,on:closedlist
+Iterator tuples() | tuples:noun
+void setUpValueSelection(QInstances;) | set:verb,up:closedlist,value:noun,selection:noun
+void set_last_ins_ptr(int m, int l) | set:verb,last:adjective,ins:noun,ptr:noun
+void testList() | test:verb,list:noun
+Dimension minimumLayoutSize(QContainer;) | minimum:noun,layout:noun,size:verb
+void JProfileTreeRenderer() | j:noun,profile:noun,tree:noun,renderer:noun
+Instances newCentersAfterSplit([ZQInstances;) | 
+List _generateJavaAPIList(QString;QString;QURL;) | generate:verb,java:noun,api:noun,list:noun
+boolean openSynthesizer() | open:verb,synthesizer:noun
+void open(AudioInputStream audioInputStream) | open:verb
+JCheckBoxMenuItem getBreakOnExceptions() | get:verb,break:noun,on:closedlist,exceptions:noun
+CONS TwistieSection(QComposite;I) | twistie:noun  section:noun 
+Optimizer buildOptimizer(QString;QClass;I) | build:verb,optimizer:noun
+Integer convertToInt(QObject;) | convert:verb,to:closedlist,int:noun
+void paintEffects(QGraphics;IIQGP4EffectsOnNote;I) | paint:verb,effects:noun
+CONS PNGWriter() | png:noun  writer:noun 
